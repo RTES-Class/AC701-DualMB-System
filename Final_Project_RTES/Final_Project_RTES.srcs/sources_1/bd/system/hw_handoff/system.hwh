@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Nov 07 11:01:28 2018" VIVADOVERSION="2016.4">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Dec 02 16:22:15 2018" VIVADOVERSION="2016.4">
 
   <SYSTEMINFO ARCH="artix7" BOARD="xilinx.com:ac701:part0:1.0" DEVICE="7a200t" NAME="system" PACKAGE="fbg676" SPEEDGRADE="-2"/>
 
@@ -18490,47 +18490,47 @@
         </PORT>
         <PORT DIR="I" NAME="Dbg_Clk" SIGIS="undef" SIGNAME="mb0_Dbg_Clk">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Clk_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Clk_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_TDI" SIGIS="undef" SIGNAME="mb0_Dbg_TDI">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDI_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDI_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="Dbg_TDO" SIGIS="undef" SIGNAME="mb0_Dbg_TDO">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDO_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDO_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="Dbg_Reg_En" RIGHT="7" SIGIS="undef" SIGNAME="mb0_Dbg_Reg_En">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Reg_En_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Reg_En_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Shift" SIGIS="undef" SIGNAME="mb0_Dbg_Shift">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Shift_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Shift_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Capture" SIGIS="undef" SIGNAME="mb0_Dbg_Capture">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Capture_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Capture_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Update" SIGIS="undef" SIGNAME="mb0_Dbg_Update">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Update_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Update_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Debug_Rst" SIGIS="undef" SIGNAME="mb0_Debug_Rst">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Rst_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Rst_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Disable" SIGIS="undef" SIGNAME="mb0_Dbg_Disable">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Disable_1"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Disable_0"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="M_AXI_IC_AWID" RIGHT="0" SIGIS="undef" SIGNAME="axi_mem_interconnect_S01_AXI_awid">
@@ -19142,7 +19142,7 @@
             <PORTMAP LOGICAL="WVALID" PHYSICAL="M_AXI_IC_WVALID"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="sys_debug_MBDEBUG_1" NAME="DEBUG" TYPE="TARGET" VLNV="xilinx.com:interface:mbdebug:3.0">
+        <BUSINTERFACE BUSNAME="sys_debug_MBDEBUG_0" NAME="DEBUG" TYPE="TARGET" VLNV="xilinx.com:interface:mbdebug:3.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="CAPTURE" PHYSICAL="Dbg_Capture"/>
             <PORTMAP LOGICAL="CLK" PHYSICAL="Dbg_Clk"/>
@@ -19639,37 +19639,37 @@
         </PORT>
         <PORT DIR="I" NAME="Dbg_Clk" SIGIS="undef" SIGNAME="mb1_Dbg_Clk">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Clk_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Clk_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_TDI" SIGIS="undef" SIGNAME="mb1_Dbg_TDI">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDI_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDI_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="Dbg_TDO" SIGIS="undef" SIGNAME="mb1_Dbg_TDO">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDO_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_TDO_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="Dbg_Reg_En" RIGHT="7" SIGIS="undef" SIGNAME="mb1_Dbg_Reg_En">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Reg_En_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Reg_En_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Shift" SIGIS="undef" SIGNAME="mb1_Dbg_Shift">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Shift_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Shift_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Capture" SIGIS="undef" SIGNAME="mb1_Dbg_Capture">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Capture_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Capture_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Update" SIGIS="undef" SIGNAME="mb1_Dbg_Update">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Update_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Update_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Dbg_Trig_In" RIGHT="7" SIGIS="undef"/>
@@ -19678,12 +19678,12 @@
         <PORT DIR="O" LEFT="0" NAME="Dbg_Trig_Ack_Out" RIGHT="7" SIGIS="undef"/>
         <PORT DIR="I" NAME="Debug_Rst" SIGIS="undef" SIGNAME="mb1_Debug_Rst">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Rst_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Rst_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="Dbg_Disable" SIGIS="undef" SIGNAME="mb1_Dbg_Disable">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Disable_0"/>
+            <CONNECTION INSTANCE="sys_debug" PORT="Dbg_Disable_1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="M_AXI_IC_AWID" RIGHT="0" SIGIS="undef" SIGNAME="axi_mem_interconnect_S09_AXI_awid">
@@ -20295,7 +20295,7 @@
             <PORTMAP LOGICAL="WVALID" PHYSICAL="M_AXI_IC_WVALID"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="sys_debug_MBDEBUG_0" NAME="DEBUG" TYPE="TARGET" VLNV="xilinx.com:interface:mbdebug:3.0">
+        <BUSINTERFACE BUSNAME="sys_debug_MBDEBUG_1" NAME="DEBUG" TYPE="TARGET" VLNV="xilinx.com:interface:mbdebug:3.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="CAPTURE" PHYSICAL="Dbg_Capture"/>
             <PORTMAP LOGICAL="CLK" PHYSICAL="Dbg_Clk"/>
@@ -25532,94 +25532,94 @@
             <CONNECTION INSTANCE="sys_mb1_interconnect" PORT="M05_AXI_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="Dbg_Clk_0" SIGIS="undef" SIGNAME="mb1_Dbg_Clk">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_Clk"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="Dbg_TDI_0" SIGIS="undef" SIGNAME="mb1_Dbg_TDI">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_TDI"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="Dbg_TDO_0" SIGIS="undef" SIGNAME="mb1_Dbg_TDO">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_TDO"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Dbg_Reg_En_0" RIGHT="7" SIGIS="undef" SIGNAME="mb1_Dbg_Reg_En">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_Reg_En"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="Dbg_Capture_0" SIGIS="undef" SIGNAME="mb1_Dbg_Capture">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_Capture"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="Dbg_Shift_0" SIGIS="undef" SIGNAME="mb1_Dbg_Shift">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_Shift"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="Dbg_Update_0" SIGIS="undef" SIGNAME="mb1_Dbg_Update">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_Update"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="Dbg_Rst_0" SIGIS="undef" SIGNAME="mb1_Debug_Rst">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Debug_Rst"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="Dbg_Disable_0" SIGIS="undef" SIGNAME="mb1_Dbg_Disable">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="mb1" PORT="Dbg_Disable"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="Dbg_Clk_1" SIGIS="undef" SIGNAME="mb0_Dbg_Clk">
+        <PORT DIR="O" NAME="Dbg_Clk_0" SIGIS="undef" SIGNAME="mb0_Dbg_Clk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_Clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="Dbg_TDI_1" SIGIS="undef" SIGNAME="mb0_Dbg_TDI">
+        <PORT DIR="O" NAME="Dbg_TDI_0" SIGIS="undef" SIGNAME="mb0_Dbg_TDI">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_TDI"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="Dbg_TDO_1" SIGIS="undef" SIGNAME="mb0_Dbg_TDO">
+        <PORT DIR="I" NAME="Dbg_TDO_0" SIGIS="undef" SIGNAME="mb0_Dbg_TDO">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_TDO"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Dbg_Reg_En_1" RIGHT="7" SIGIS="undef" SIGNAME="mb0_Dbg_Reg_En">
+        <PORT DIR="O" LEFT="0" NAME="Dbg_Reg_En_0" RIGHT="7" SIGIS="undef" SIGNAME="mb0_Dbg_Reg_En">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_Reg_En"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="Dbg_Capture_1" SIGIS="undef" SIGNAME="mb0_Dbg_Capture">
+        <PORT DIR="O" NAME="Dbg_Capture_0" SIGIS="undef" SIGNAME="mb0_Dbg_Capture">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_Capture"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="Dbg_Shift_1" SIGIS="undef" SIGNAME="mb0_Dbg_Shift">
+        <PORT DIR="O" NAME="Dbg_Shift_0" SIGIS="undef" SIGNAME="mb0_Dbg_Shift">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_Shift"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="Dbg_Update_1" SIGIS="undef" SIGNAME="mb0_Dbg_Update">
+        <PORT DIR="O" NAME="Dbg_Update_0" SIGIS="undef" SIGNAME="mb0_Dbg_Update">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_Update"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="Dbg_Rst_1" SIGIS="undef" SIGNAME="mb0_Debug_Rst">
+        <PORT DIR="O" NAME="Dbg_Rst_0" SIGIS="undef" SIGNAME="mb0_Debug_Rst">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Debug_Rst"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="Dbg_Disable_1" SIGIS="undef" SIGNAME="mb0_Dbg_Disable">
+        <PORT DIR="O" NAME="Dbg_Disable_0" SIGIS="undef" SIGNAME="mb0_Dbg_Disable">
           <CONNECTIONS>
             <CONNECTION INSTANCE="mb0" PORT="Dbg_Disable"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Dbg_Clk_1" SIGIS="undef" SIGNAME="mb1_Dbg_Clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_Clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Dbg_TDI_1" SIGIS="undef" SIGNAME="mb1_Dbg_TDI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_TDI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Dbg_TDO_1" SIGIS="undef" SIGNAME="mb1_Dbg_TDO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_TDO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dbg_Reg_En_1" RIGHT="7" SIGIS="undef" SIGNAME="mb1_Dbg_Reg_En">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_Reg_En"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Dbg_Capture_1" SIGIS="undef" SIGNAME="mb1_Dbg_Capture">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_Capture"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Dbg_Shift_1" SIGIS="undef" SIGNAME="mb1_Dbg_Shift">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_Shift"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Dbg_Update_1" SIGIS="undef" SIGNAME="mb1_Dbg_Update">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_Update"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Dbg_Rst_1" SIGIS="undef" SIGNAME="mb1_Debug_Rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Debug_Rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Dbg_Disable_1" SIGIS="undef" SIGNAME="mb1_Dbg_Disable">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mb1" PORT="Dbg_Disable"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -25704,8 +25704,8 @@
       </BUSINTERFACES>
       <MEMORYMAP/>
       <PERIPHERALS>
-        <PERIPHERAL INSTANCE="mb1"/>
         <PERIPHERAL INSTANCE="mb0"/>
+        <PERIPHERAL INSTANCE="mb1"/>
       </PERIPHERALS>
     </MODULE>
     <MODULE FULLNAME="/sys_dlmb" HWVERSION="3.0" INSTANCE="sys_dlmb" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="lmb_v10" VLNV="xilinx.com:ip:lmb_v10:3.0">

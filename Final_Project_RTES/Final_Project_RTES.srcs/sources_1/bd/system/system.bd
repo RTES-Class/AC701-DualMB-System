@@ -1259,12 +1259,12 @@
       </spirit:interconnection>
       <spirit:interconnection>
         <spirit:name>sys_debug_MBDEBUG_0</spirit:name>
-        <spirit:activeInterface spirit:busRef="DEBUG" spirit:componentRef="mb1"/>
+        <spirit:activeInterface spirit:busRef="DEBUG" spirit:componentRef="mb0"/>
         <spirit:activeInterface spirit:busRef="MBDEBUG_0" spirit:componentRef="sys_debug"/>
       </spirit:interconnection>
       <spirit:interconnection>
         <spirit:name>sys_debug_MBDEBUG_1</spirit:name>
-        <spirit:activeInterface spirit:busRef="DEBUG" spirit:componentRef="mb0"/>
+        <spirit:activeInterface spirit:busRef="DEBUG" spirit:componentRef="mb1"/>
         <spirit:activeInterface spirit:busRef="MBDEBUG_1" spirit:componentRef="sys_debug"/>
       </spirit:interconnection>
     </spirit:interconnections>
