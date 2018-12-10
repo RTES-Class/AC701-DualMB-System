@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1544417994">
-  <File Type="RDS-PROPCONSTRS" Name="system_top_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="system_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="system_top_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="system_top.vds"/>
   <File Type="RDS-UTIL" Name="system_top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="system_top_utilization_synth.pb"/>
@@ -12,6 +12,8 @@
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Final_Project_RTES.srcs/sources_1/bd/system/system.bd"/>
+        <Attr Name="ImportTime" Val="1544417891"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -19,6 +21,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/hdl/system_wrapper.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Final_Project_RTES.srcs/sources_1/imports/hdl/system_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1534668072"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -26,6 +30,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/FPGA/Analog_HDL/hdl-hdl_2017_r1/library/xilinx/common/ad_iobuf.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Final_Project_RTES.srcs/sources_1/imports/FPGA/Analog_HDL/hdl-hdl_2017_r1/library/xilinx/common/ad_iobuf.v"/>
+        <Attr Name="ImportTime" Val="1518442274"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -33,6 +39,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/FPGA/HDMI_AC701/ac701_project_dual/system_top.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Final_Project_RTES.srcs/sources_1/imports/FPGA/HDMI_AC701/ac701_project_dual/system_top.v"/>
+        <Attr Name="ImportTime" Val="1518442274"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -40,17 +48,23 @@
     </File>
     <File Path="$PSRCDIR/sources_1/bd/system/ip/system_axi_ddr_cntrl_0/ac701_system_mig.prj">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Final_Project_RTES.srcs/sources_1/bd/system/ip/system_axi_ddr_cntrl_0/ac701_system_mig.prj"/>
+        <Attr Name="ImportTime" Val="1544417881"/>
         <Attr Name="UsedIn" Val="synthesis"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/imports/FPGA/Analog_HDL/hdl-hdl_2017_r1/projects/common/ac701/ac701_system_constr.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Final_Project_RTES.srcs/sources_1/imports/FPGA/Analog_HDL/hdl-hdl_2017_r1/projects/common/ac701/ac701_system_constr.xdc"/>
+        <Attr Name="ImportTime" Val="1540797230"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/imports/FPGA/HDMI_AC701/ac701_project_dual/system_constr.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Final_Project_RTES.srcs/sources_1/imports/FPGA/HDMI_AC701/ac701_project_dual/system_constr.xdc"/>
+        <Attr Name="ImportTime" Val="1518442274"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
@@ -69,9 +83,9 @@
   <Strategy Version="1" Minor="2">
     <StratHandle Name="Flow_PerfOptimized_high" Flow="Vivado Synthesis 2016"/>
     <Step Id="synth_design">
-      <Option Id="NoCombineLuts">1</Option>
-      <Option Id="ShregMinSize">5</Option>
       <Option Id="ResourceSharing">2</Option>
+      <Option Id="ShregMinSize">5</Option>
+      <Option Id="NoCombineLuts">1</Option>
       <Option Id="KeepEquivalentRegisters">1</Option>
       <Option Id="RepFanoutThreshold">400</Option>
       <Option Id="FsmExtraction">1</Option>
