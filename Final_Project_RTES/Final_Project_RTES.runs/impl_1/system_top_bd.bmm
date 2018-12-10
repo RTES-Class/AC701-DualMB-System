@@ -1,0 +1,54 @@
+// BMM LOC annotation file.
+//
+// SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+// Vivado v2016.4 (64-bit)
+// Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor 'i_system_wrapper_system_i_mb0', ID 100, memory map.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_MAP i_system_wrapper_system_i_mb0 MICROBLAZE-LE 100 i_system_wrapper/system_i/mb0
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'i_system_wrapper_system_i_mb0' address space 'i_system_wrapper_system_i_sys_dlmb_cntlr' 0x00000000:0x00001FFF (8 KBytes).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE i_system_wrapper_system_i_sys_dlmb_cntlr RAMB32 [0x00000000:0x00001FFF] i_system_wrapper/system_i/sys_dlmb_cntlr
+        BUS_BLOCK
+            i_system_wrapper/system_i/sys_lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [31:16] [0:2047] PLACED = X2Y33;
+            i_system_wrapper/system_i/sys_lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [15:0] [0:2047] PLACED = X2Y34;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+END_ADDRESS_MAP;
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor 'i_system_wrapper_system_i_mb1', ID 100, memory map.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_MAP i_system_wrapper_system_i_mb1 MICROBLAZE-LE 100 i_system_wrapper/system_i/mb1
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'i_system_wrapper_system_i_mb1' address space 'i_system_wrapper_system_i_sys_mb1_local_memory_dlmb_bram_if_cntlr' 0x00000000:0x00001FFF (8 KBytes).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE i_system_wrapper_system_i_sys_mb1_local_memory_dlmb_bram_if_cntlr RAMB32 [0x00000000:0x00001FFF] i_system_wrapper/system_i/sys_mb1_local_memory/dlmb_bram_if_cntlr
+        BUS_BLOCK
+            i_system_wrapper/system_i/sys_mb1_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [31:16] [0:2047] PLACED = X3Y24;
+            i_system_wrapper/system_i/sys_mb1_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [15:0] [0:2047] PLACED = X3Y26;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+END_ADDRESS_MAP;
+
