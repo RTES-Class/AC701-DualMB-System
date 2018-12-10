@@ -1,4 +1,4 @@
-# Dual Processors System AC701
+# Dual_Processor_System_AC701
 
 This is the final project for Real-time Embedded System class.
 
